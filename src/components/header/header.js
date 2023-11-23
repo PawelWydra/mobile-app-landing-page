@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <img src="./logo.png" alt="logo" />
+      <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
       <nav>
         <ul>
           <li>About</li>
