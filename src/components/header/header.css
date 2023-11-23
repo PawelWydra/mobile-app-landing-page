@@ -1,0 +1,12 @@
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
