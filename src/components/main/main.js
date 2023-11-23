@@ -10,14 +10,12 @@ function Main() {
           Our mobile app is designed to make your daily tasks easier and more
           efficient, so you can focus on the things that matter most.
         </p>
-        <button>Explore</button>
+        <button>EXPLORE</button>
       </div>
-      <div>
-      <img src={process.env.PUBLIC_URL + "/images/title-img.png"} alt="logo" />
+      <div className='title-container'>
+      <img src={process.env.PUBLIC_URL + "/images/title-img.png"} alt="logo" className='title-img' />
       <img src="https://randomuser.me/api/portraits/men/73.jpg" alt="person" />
       <img src="https://randomuser.me/api/portraits/women/51.jpg" alt="person" />
-      
-
       </div>
     </div>
   );

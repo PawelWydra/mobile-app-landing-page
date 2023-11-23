@@ -1,8 +1,9 @@
-
 .container {
   padding: 5rem;
   width: 120vh;
   aspect-ratio: 2/0.8;
+  display: flex;
+  justify-content: start;
 }
 
 .background-image {
@@ -12,4 +13,57 @@
   background-repeat: no-repeat;
   border-radius: 2rem;
 }
- 
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  max-width: 42%;
+}
+
+.card-description span {
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  color: #ffffffa9;
+}
+.card-description h1 {
+  letter-spacing: 0.1rem;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.card-description p {
+  line-height: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.card-description button {
+  background-color: #f9bf12;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 30%;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.title-container {
+  margin-left: 10%;
+  width: 35%;
+  height: 35rem;
+}
+.title-img {
+  width: 80%;
+  height: 100%;
+  border-radius: 6rem;
+}

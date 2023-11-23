@@ -37,15 +37,15 @@ ul {
 
 .download-btn {
   background-color: white;
-  border: 2px solid rgb(13, 136, 192);
-  color: rgb(13, 136, 192);
+  border: 1px solid rgb(8, 143, 233);
+  color: rgb(8, 143, 233);
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   border-radius: 5px;
   height: 2.5rem;
   padding-inline: 1rem;
-  margin: 1rem;
+  margin: 1rem 1.5rem;
   font-weight: bold;
   font-size: 0.8rem;
 }
