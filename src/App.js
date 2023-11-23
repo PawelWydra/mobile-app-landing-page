@@ -1,11 +1,13 @@
 import "./App.css";
+import Header from "./components/header/header.js";
+
 
 function App() {
   return (
-    <div className="container background-image">
-      <p>hi how are you</p>
-    </div>
-  );
+    <Header />
+    // <Main />
+    // <Footer />
+    )
 }
 
 export default App;
