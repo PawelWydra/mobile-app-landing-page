@@ -1,14 +1,6 @@
-.container {
-  width: 80vw;
-  height: 80vh;
-  padding: 20px;
-  margin: 20px;
-}
-
-.background-image {
-  background: url("/public/images/background-svg.svg");
-  background-position: center;
-  background-size: 180%;
-  background-repeat: no-repeat;
-  border-radius: 20px;
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
 }

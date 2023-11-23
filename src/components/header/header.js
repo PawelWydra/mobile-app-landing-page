@@ -4,14 +4,15 @@ function Header() {
   return (
     <div className="title">
       <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
-      <nav className="navbar">
-        <ul>
-          <li>About</li>
-          <li>Features</li>
-          <li>Blog</li>
-          <li>Pricing</li>
-          <button>Download Now</button>
+      <nav>
+        <ul className="navbar">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li>
+          <button className="download-btn">DOWNLOAD NOW</button>
         </ul>
+          
       </nav>
     </div>
   );

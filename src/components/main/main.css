@@ -1,0 +1,15 @@
+
+.container {
+  padding: 5rem;
+  width: 120vh;
+  aspect-ratio: 2/0.8;
+}
+
+.background-image {
+  background: url("/public/images/background-svg.svg");
+  background-position: center;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+ 
