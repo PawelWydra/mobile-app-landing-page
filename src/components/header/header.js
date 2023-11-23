@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <img src="public/images" alt="logo" />
+      <img src="./logo.png" alt="logo" />
       <nav>
         <ul>
           <li>About</li>
