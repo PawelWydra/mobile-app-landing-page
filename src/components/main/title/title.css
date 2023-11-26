@@ -1,11 +1,10 @@
 .container {
-    padding: 5rem;
-    width: 120vh;
-    height: 52vh;
+    height: 54vh;
+    min-height: 500px;
+    aspect-ratio: 2/1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
     padding: 4rem;
   }
   
@@ -63,7 +62,8 @@
   .title-container {
     position: relative;
     width: 38%;
-    height: 35rem;
+    height: 32rem;
+    max-height: 32rem;
     margin-right: 5rem;
   }
   .title-img {
@@ -89,5 +89,5 @@
     width: 5rem;
     height: 5rem;
     border-radius: 100%;
-    border: thick double #fff;
+    border:3px solid #fff;
   }
