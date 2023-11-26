@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 5vh;
-  max-width: 100%;
 }
 .main-features span {
   color: rgba(0, 0, 0, 0.377);
@@ -13,7 +11,9 @@
 .container-features {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .feature-item {
