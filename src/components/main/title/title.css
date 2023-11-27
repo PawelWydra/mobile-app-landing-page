@@ -1,11 +1,10 @@
 .container {
     height: 52vh;
     min-height: 500px;
-    aspect-ratio: 2/1;
+    aspect-ratio: 2.4/1;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 4rem;
+    padding: 3rem;
   }
   
   .background-image {
@@ -61,10 +60,10 @@
   
   .title-container {
     position: relative;
-    width: 38%;
+    width: 32%;
     height: 32rem;
     max-height: 32rem;
-    margin-right: 5rem;
+    margin-left: 8rem;;
   }
   .title-img {
     width: 100%;
