@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     line-height: 1.4;
     font-family: "Merriweather", serif;
   }

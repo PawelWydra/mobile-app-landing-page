@@ -1,9 +1,31 @@
-import "./about.css"
+import "./about.css";
 
 function About() {
   return (
     <div className="about-container">
-      <div className="about-image"></div>
+      <div className="about-image">
+        <img
+          src={process.env.PUBLIC_URL + "/images/about-person-img.png"}
+          alt="logo"
+          className="about-person-image"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/images/about-app-img.png"}
+          alt="logo"
+          className="about-app-img"
+        />
+         <img
+          src={process.env.PUBLIC_URL + "/images/about-user-img.png"}
+          alt="logo"
+          className="about-user-img"
+        />
+         <img
+          src={process.env.PUBLIC_URL + "/images/about-user-ui-img.png"}
+          alt="logo"
+          className="about-user-ui-img"
+        />
+
+      </div>
       <div className="about-title">
         <span>ABOUT US</span>
         <h1>We Do Things Differently</h1>

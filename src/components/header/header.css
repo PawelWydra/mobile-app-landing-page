@@ -19,9 +19,8 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 1rem;
-  margin-bottom: 2rem;
   width: 100%;
   font-size: 1em;
 }
