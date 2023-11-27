@@ -1,10 +1,10 @@
 .flex-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 3rem;
-    line-height: 1.4;
-    font-family: "Merriweather", serif;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  line-height: 1.4;
+  font-family: "Merriweather", serif;
+  min-width: 1200px;
+}
