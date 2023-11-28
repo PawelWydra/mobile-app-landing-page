@@ -4,7 +4,9 @@
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
+  width: 80%;
   line-height: 1.4;
   font-family: "Merriweather", serif;
 }
+
 

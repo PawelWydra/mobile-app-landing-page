@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows of auto height */
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+    max-width: 100%; /* Take the maximum width of the parent container */
+    margin: 0 auto; /* Center the grid container horizontally */
+  
+    /* Optional: Add some padding or other styling as needed */
+    padding: 20px;
+  }

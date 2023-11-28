@@ -24,10 +24,8 @@ function MoreFeatures() {
         </div>
         <div className="professional">
           <i></i>
-          <h2>
-            Save time searching for apps with personalized recommendations
-          </h2>
-          <p></p>
+          <h2>Professional</h2>
+          <p>Save time searching for apps with personalized recommendations</p>
         </div>
       </div>
     </div>
