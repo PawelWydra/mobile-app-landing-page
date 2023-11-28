@@ -1,0 +1,91 @@
+.download-container {
+  width: 55vw;
+  min-width: 50rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.background-image {
+  background: url("/public/images/background-svg.svg");
+  background-position: center;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+
+.download-container span {
+  font-size: 1.1rem;
+  background-color: none;
+  color: rgba(240, 224, 224, 0.813);
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.heading-container h1 {
+  font-size: 3rem;
+  margin: 0.1rem;
+  font-weight: 900;
+}
+
+.btn-explore,
+.btn-get-now {
+  height: 2.5rem;
+  aspect-ratio: 4/1;
+  margin-inline: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  font-weight: 900;
+  color: #fff;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease-in, color 0.3s ease-out;
+}
+
+.btn-explore {
+  background: none;
+  border: 1px solid #fff;
+}
+
+.btn-explore:hover {
+  background-color: #fff;
+  color: #5f06dd;
+}
+
+.btn-get-now {
+  background-color: rgb(0, 98, 255);
+  color: #fff;
+  border: none;
+}
+
+.btn-get-now:hover {
+  background-color: #fff;
+  color: rgb(0, 98, 255);
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
