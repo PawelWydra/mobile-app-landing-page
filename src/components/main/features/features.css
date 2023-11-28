@@ -17,8 +17,8 @@
 }
 
 .feature-item {
-  height: 20vh;
-  aspect-ratio: 1.7/1;
+  height: 12rem;
+  aspect-ratio: 1.5/1;
   margin: 0 1rem;
   padding: 2rem;
   border-radius: 0.5rem;

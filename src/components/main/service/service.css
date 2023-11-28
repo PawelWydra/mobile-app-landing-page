@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 70vh;
+  width: 80%;
 }
 
 .service-container > * {
@@ -31,4 +32,46 @@
 
 .check-icon {
   color: rgb(44, 135, 255);
+}
+.service-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-image {
+  position: relative;
+  width: 45%;
+  aspect-ratio: 1/1.75;
+  background-color: rgb(183, 153, 223);
+  border-radius: 1rem;
+}
+
+.service-image > * {
+  position: absolute;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.share-img {
+  height: 70%;
+  width: 170%;
+  border: solid 3px black;
+  left: -6.5rem;
+  bottom: 15%;
+}
+.share-user-img {
+  width: 70%;
+  height: 55%;
+  left: 15%;
+  bottom: 22.5%;
+}
+
+.share-person {
+  border-radius: 100%;
+  left: 31%;
+  bottom:54%;
+  height: 21%;
+  width: 34%;
+  border: solid 5px #fff;
 }

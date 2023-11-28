@@ -27,17 +27,24 @@ function Service() {
           <li></li>
         </ul>
       </div>
-      <div className="service-image">
-        <img
-          src={process.env.PUBLIC_URL + "/images/share-img.jpg"}
-          alt="logo"
-          className=""
-        />
-        <img
-          src={process.env.PUBLIC_URL + "/images/share-user-img.jpg"}
-          alt="logo"
-          className=""
-        />
+      <div className="service-image-container">
+        <div className="service-image">
+          <img
+            src={process.env.PUBLIC_URL + "/images/share-img.jpg"}
+            alt="share-img"
+            className="share-img"
+          />
+          <img
+            src={process.env.PUBLIC_URL + "/images/share-user-img.jpg"}
+            alt="share-user-img"
+            className="share-user-img"
+          />
+          <img
+            src="https://randomuser.me/api/portraits/women/32.jpg"
+            alt="person"
+            className="share-person"
+          />
+        </div>
       </div>
     </div>
   );
