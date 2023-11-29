@@ -1,19 +1,17 @@
 .service-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 70vh;
   width: 100%;
+  aspect-ratio: 2/1;
 }
 
-.service-container > * {
-  width: 50%;
-}
 
 .service-title {
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: 100%;
+  min-width: 25rem;
 }
 
 .service-title p {
@@ -37,8 +35,9 @@
 }
 .service-image-container {
   display: flex;
-  justify-content: end;
-  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  min-width: 25rem;
 }
 
 .service-image {

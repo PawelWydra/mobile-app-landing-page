@@ -12,13 +12,6 @@
   color: #fff;
 }
 
-.background-image {
-  background: url("/public/images/background-svg.svg");
-  background-position: center;
-  background-size: 160%;
-  background-repeat: no-repeat;
-  border-radius: 2rem;
-}
 
 .download-container span {
   font-size: 1.1rem;

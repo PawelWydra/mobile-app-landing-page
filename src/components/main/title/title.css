@@ -1,17 +1,10 @@
 .container {
-    min-height: 500px;
-    aspect-ratio: 2.4/1;
+    height: 50vh;
+    min-height: 25rem;
+    aspect-ratio: 2.5/1;
     display: flex;
     align-items: center;
     padding: 3rem;
-  }
-  
-  .background-image {
-    background: url("/public/images/background-svg.svg");
-    background-position: center;
-    background-size: 180%;
-    background-repeat: no-repeat;
-    border-radius: 2rem;
   }
   
   .card-description {
@@ -42,6 +35,7 @@
   }
   
   .card-description button {
+    min-width: 5rem;
     background-color: #f9bf12;
     color: #ffffff;
     padding: 12px 20px;
@@ -59,9 +53,8 @@
   
   .title-container {
     position: relative;
-    width: 32%;
+    width: 30%;
     height: 32rem;
-    max-height: 32rem;
     margin-left: 8rem;;
   }
   .title-img {

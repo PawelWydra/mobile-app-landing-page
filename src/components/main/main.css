@@ -2,15 +2,29 @@ div {
   border-radius: 1rem;
 }
 
+p {
+  opacity: 0.8;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.background-image {
+  background: url("/public/images/background-svg.svg");
+  background-position: center;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+
 .flex-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
   width: 80%;
   line-height: 1.4;
   font-family: "Merriweather", serif;
 }
-
-

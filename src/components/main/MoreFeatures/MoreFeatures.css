@@ -1,17 +1,23 @@
+
 .grid-container {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr); 
     gap: 5rem; 
     max-width: 100%;
+    min-width: 20rem;
     aspect-ratio: 2/1;
     margin: 0 auto; 
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     border-radius: 1rem;
   }
 
   .grid-container > div {
-    padding: 1rem;
+    padding: 0.5rem;
+    min-width: 15rem;
+  }
+  .grid-container p {
+      opacity: 0.5;
   }
 
   .img-container {
@@ -24,6 +30,7 @@
     position: relative;
     background-color: rgb(248, 224, 183);
     width: 50%;
+    min-width: 10rem;
     height: 50%;
   }
 
@@ -34,16 +41,27 @@
   }
 
   .business-img {
+    min-width: 15rem;
+    max-height: 32rem;
     height: 180%;
     width: 160%;
     bottom: -7rem;
     left: 1rem;
   }
   .business-qcode {
-    width: 100%;
-    height: 70%;
-    right: -12em;
-    top: 4em;;
+    width: 80%;
+    height: 50%;
+    right: -90%;
+    top: 8em;;
+  }
+  .business-user {
+    position: absolute;
+    right: -6.5rem;
+    top: -6.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:3px solid #fff;
   }
 
   .icon {
@@ -53,9 +71,8 @@
   }
 
   .icon-strong {
-    background-color: rgb(255, 255, 255);
-    color:rgb(249, 249, 85);
-    border: 3px solid rgb(255, 255, 0)
+    background-color: rgba(23, 255, 2, 0.306);
+    color:rgb(23, 255, 2);
   }
 
   .icon-blob {
