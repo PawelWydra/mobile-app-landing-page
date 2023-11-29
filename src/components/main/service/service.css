@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-width: 25rem;
+  min-width: 20rem;
 }
 
 .service-title p {
