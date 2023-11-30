@@ -28,3 +28,7 @@ img {
   line-height: 1.4;
   font-family: "Merriweather", serif;
 }
+
+.flex-box > div {
+  min-width: 50rem;
+}

@@ -30,7 +30,7 @@
   }
   
   .card-description p {
-    min-width: 20rem;
+    min-width: rem;
     line-height: 2rem;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
