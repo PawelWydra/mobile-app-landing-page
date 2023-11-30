@@ -41,14 +41,14 @@
     min-width: 15rem;
     max-height: 32rem;
     height: 180%;
-    width: 160%;
+    width: 140%;
     bottom: -7rem;
     left: 1rem;
   }
   .business-qcode {
-    width: 80%;
+    width: 60%;
     height: 50%;
-    right: -90%;
+    right: -70%;
     top: 8em;;
   }
   .business-user {
