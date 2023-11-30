@@ -2,7 +2,7 @@ import "./steps.css";
 
 function Steps() {
   return (
-    <div className="steps-container">
+    <section className="steps-container">
       <span>3 STEPS</span>
       <h1>You'll Love To Use It</h1>
       <div className="flex-steps">
@@ -31,7 +31,7 @@ function Steps() {
           <a href="#">Deploy Now</a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
