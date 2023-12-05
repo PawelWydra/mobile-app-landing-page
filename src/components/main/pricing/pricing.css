@@ -1,0 +1,18 @@
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing-items-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

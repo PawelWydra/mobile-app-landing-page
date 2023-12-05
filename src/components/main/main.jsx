@@ -7,18 +7,22 @@ import Download from "./download/download";
 import MoreFeatures from "./MoreFeatures/MoreFeatures.jsx";
 import Steps from "./steps/steps";
 import FAQ from "./faq/faq";
+import Pricing from "./pricing/pricing";
 
 function Main() {
-  return (<div className="flex-box">
-    <Title />
-    <Features />
-    <About />
-    <Service/>
-    <Download />
-    <MoreFeatures />
-    <Steps />
-    <FAQ/>
-  </div>);
+  return (
+    <div className="flex-box">
+      <Title />
+      <Features />
+      <About />
+      <Service />
+      <Download />
+      <MoreFeatures />
+      <Steps />
+      <FAQ />
+      <Pricing />
+    </div>
+  );
 }
 
 export default Main;
