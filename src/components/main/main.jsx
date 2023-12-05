@@ -6,6 +6,7 @@ import Service from "./service/service";
 import Download from "./download/download";
 import MoreFeatures from "./MoreFeatures/MoreFeatures.jsx";
 import Steps from "./steps/steps";
+import FAQ from "./faq/faq";
 
 function Main() {
   return (<div className="flex-box">
@@ -16,6 +17,7 @@ function Main() {
     <Download />
     <MoreFeatures />
     <Steps />
+    <FAQ/>
   </div>);
 }
 

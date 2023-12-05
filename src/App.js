@@ -1,12 +1,16 @@
 import "./App.css";
-import Header from "./components/header/header.jsx";
-import Main from "./components/main/main.jsx";
+import React, { lazy, Suspense } from "react";
+
+const Header = lazy(() => import("./components/header/header.jsx"));
+const Main = lazy(() => import("./components/main/main.jsx"));
 
 function App() {
   return (
     <div className="flex-box">
-      <Header />
-      <Main />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <Main />
+      </Suspense>
     </div>
   );
 }
