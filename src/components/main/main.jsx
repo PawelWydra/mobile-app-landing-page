@@ -8,6 +8,7 @@ import MoreFeatures from "./MoreFeatures/MoreFeatures.jsx";
 import Steps from "./steps/steps";
 import FAQ from "./faq/faq";
 import Pricing from "./pricing/pricing";
+import Blog from "./blog/blog";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
       <Steps />
       <FAQ />
       <Pricing />
+      <Blog />
     </div>
   );
 }
