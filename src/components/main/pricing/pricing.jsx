@@ -1,4 +1,7 @@
 import "./pricing.css";
+import { FaCheck } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
+
 
 function Pricing() {
   return (
@@ -9,57 +12,60 @@ function Pricing() {
         <div className="pricing-items-wrapper">
           <div className="pricing-item">
             <h1>$10</h1>
-            <h2>Standard</h2>
+            <h3>Standard</h3>
             <ul>
               <li>
-                <i>icon</i>
+              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
                 <p>Email Marketing</p>
               </li>
               <li>
-                <i>icon</i>
-                <p>Mobile Optimization</p>
+              <FaXmark color="red"/>
+              <p className="opacity">Mobile Optimization</p>
               </li>
               <li>
-                <i>icon</i>
-                <p>Time Deliverable</p>
+              <FaXmark color="red"/>
+                <p className="opacity">Time Deliverable</p>
               </li>
             </ul>
+            <button className="pricing-btn">GET NOW</button>
           </div>
-          <div className="pricing-item">
+          <div className="pricing-item premium-card">
             <h1>$20</h1>
-            <h2>Premium</h2>
+            <h3>Premium</h3>
             <ul>
               <li>
-                <i>icon</i>
+              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
                 <p>Email Marketing</p>
               </li>
               <li>
-                <i>icon</i>
+              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
                 <p>Mobile Optimization</p>
               </li>
               <li>
-                <i>icon</i>
-                <p>Time Deliverable</p>
+              <FaXmark color="red"/>
+                <p className="opacity">Time Deliverable</p>
               </li>
             </ul>
+            <button className="pricing-btn premium-btn">GET NOW</button>
           </div>
           <div className="pricing-item">
             <h1>$40</h1>
-            <h2>Enterprise</h2>
+            <h3>Enterprise</h3>
             <ul>
               <li>
-                <i>icon</i>
+              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
                 <p>Email Marketing</p>
               </li>
               <li>
-                <i>icon</i>
+              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
                 <p>Mobile Optimization</p>
               </li>
               <li>
-                <i>icon</i>
+              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
                 <p>Time Deliverable</p>
               </li>
             </ul>
+            <button className="pricing-btn">GET NOW</button>
           </div>
         </div>
       </div>
