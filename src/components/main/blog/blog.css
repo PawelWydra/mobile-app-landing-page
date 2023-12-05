@@ -1,8 +1,98 @@
 .blog-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.blog-container h1 {
+  margin: 0;
 }
 
+.blog-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 2.5/1;
+}
+.blog-article-newsletter,
+.blog-article-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  width: 45%;
+  aspect-ratio: 1.5/1;
+  padding: 1rem 1.5rem;
+  background-position: center;
+  color: white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease-in;
+}
+
+.blog-article-newsletter:hover,
+.blog-article-phone:hover {
+  opacity: 0.6;
+}
+
+.blog-article-newsletter {
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/30/21/36/newsletter-4308826_960_720.jpg");
+}
+.blog-article-phone {
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/28/18/12/smartphone-1701086_960_720.jpg");
+}
+
+.blog-img-container p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+}
+
+.blog-img-container h3 {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+}
+
+.blog-sign-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.blog-sign-in > div {
+  width: 50%;
+}
+.blog-sign-in form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.blog-sign-in form input {
+  height: 1.75rem;
+  width: 45%;
+  border: 2px solid rgba(128, 128, 128, 0.583);
+  border-radius: 0.4rem;
+}
+
+.blog-newsletter-subscribe button {
+  height: 2.25rem;
+  padding: 0rem 2rem;
+  margin-left: 1.5rem;
+  color: #fff;
+  border: none;
+  background-color: rgba(0, 128, 255, 0.863);
+  border-radius: 0.4rem;
+  font-weight: 900;
+  font-size: 0.9rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in, color 0.3s ease-out;
+}
+.blog-newsletter-subscribe button:hover {
+  background-color: rgba(10, 99, 253, 0.986);
+}
