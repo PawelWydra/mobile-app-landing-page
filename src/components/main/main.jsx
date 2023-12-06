@@ -12,19 +12,19 @@ import Blog from "./blog/blog";
 
 function Main() {
   return (
-    <div className="flex-box">
+    <main className="flex-box">
       <Title />
       <Features />
       <About />
       <Service />
-      <Download mainTitle="Download Our App" subTitle="Right Now"/>
+      <Download mainTitle="Download Our App" subTitle="Right Now" id="downloads"/>
       <MoreFeatures />
       <Steps />
       <FAQ />
       <Pricing />
       <Blog />
-      <Download mainTitle="Join The Biggest" subTitle="Community"/>
-    </div>
+      <Download mainTitle="Join The Biggest" subTitle="Community" id="join-now"/>
+    </main>
   );
 }
 

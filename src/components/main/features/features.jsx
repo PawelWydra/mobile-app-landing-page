@@ -5,7 +5,7 @@ import WifiIcon from '@mui/icons-material/Wifi';
 
 function Features() {
   return (
-    <div className="main-features">
+    <section className="main-features" id="features">
       <span>OUR FEATURES</span>
       <h1>Awesome Features Of Our App</h1>
       <div className="container-features">
@@ -31,7 +31,7 @@ function Features() {
           <p>Connect with friends and family seamlessly</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -5,7 +5,7 @@ import { FaXmark } from "react-icons/fa6";
 
 function Pricing() {
   return (
-    <div className="pricing-container">
+    <section className="pricing-container" id="pricing">
       <div className="pricing-flex">
         <span>PRICING</span>
         <h1>Our Flexible App Price</h1>
@@ -69,7 +69,7 @@ function Pricing() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

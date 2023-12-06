@@ -28,9 +28,15 @@ function Footer() {
       <div className="footer-item">
         <span>SOCIAL</span>
         <div className="social-icons">
-          <FaFacebookF className="facebook-icon" />
-          <FaGithub className="github-icon" />
-          <FaInstagram className="instagram-icon" />
+          <a href="">
+            <FaFacebookF className="facebook-icon" />
+          </a>
+          <a href="">
+            <FaGithub className="github-icon" />
+          </a>
+          <a href="#title">
+            <FaInstagram className="instagram-icon" />
+          </a>
         </div>
       </div>
     </div>

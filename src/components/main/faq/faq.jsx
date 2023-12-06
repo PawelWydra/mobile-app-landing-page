@@ -3,7 +3,7 @@ import { BsQuestion } from "react-icons/bs";
 
 function FAQ() {
   return (
-    <div className="faq-container">
+    <section className="faq-container" id='faq'>
       <div className="faq-flex">
         <span>F.A.Q.</span>
         <h1>Frequently Asked Questions</h1>
@@ -44,7 +44,7 @@ function FAQ() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -2,7 +2,7 @@ import "./title.css"
 
 function Title() {
     return ( 
-        <div className="container background-image">
+        <div className="container background-image" id="title">
           <div className="card-description">
             <span>BEST APPLICATION</span>
             <h1>Make It Simple With Our Mobile App</h1>

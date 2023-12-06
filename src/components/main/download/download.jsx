@@ -2,7 +2,7 @@ import "./download.css";
 
 function Download(props) {
   return (
-    <div className="download-container background-image">
+    <section className="download-container background-image" id={props.id}>
       <span>DOWNLOAD NOW</span>
       <div className="heading-container pulse">
         <h1>{props.mainTitle}</h1>
@@ -12,7 +12,7 @@ function Download(props) {
         <button className="btn-explore">EXPLORE</button>
         <button className="btn-get-now">GET NOW</button>
       </div>
-    </div>
+    </section>
   );
 }
 

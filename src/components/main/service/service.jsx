@@ -3,7 +3,7 @@ import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 
 function Service() {
   return (
-    <div className="service-container">
+    <section className="service-container" id="service">
       <div className="service-title">
         <span>SERVICE</span>
         <h1>Share With Your Friends</h1>
@@ -46,7 +46,7 @@ function Service() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

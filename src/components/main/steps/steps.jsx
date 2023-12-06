@@ -2,7 +2,7 @@ import "./steps.css";
 
 function Steps() {
   return (
-    <section className="steps-container">
+    <section className="steps-container" id="steps">
       <span>3 STEPS</span>
       <h1>You'll Love To Use It</h1>
       <div className="flex-steps">

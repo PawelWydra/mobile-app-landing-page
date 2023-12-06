@@ -4,7 +4,7 @@ const data = "05 December 2023";
 
 function Blog() {
   return (
-    <div className="blog-container">
+    <section className="blog-container" id="blog">
       <span>OUR BLOG</span>
       <h1>Latest Blogs & News</h1>
       <div className="blog-img-container">
@@ -31,7 +31,7 @@ function Blog() {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

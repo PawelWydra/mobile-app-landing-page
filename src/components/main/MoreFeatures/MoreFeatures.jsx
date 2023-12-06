@@ -5,7 +5,7 @@ import { FaBolt, FaBalanceScale } from "react-icons/fa";
 
 const MoreFeatures = () => {
   return (
-    <div className="more-features-container">
+    <section className="more-features-container" id="more-features">
       <span>MORE FEATURES</span>
       <h1>Explore Our Business Features</h1>
       <div className="grid-container">
@@ -55,7 +55,7 @@ const MoreFeatures = () => {
           <p>Save time searching for apps with personalized recommendations</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

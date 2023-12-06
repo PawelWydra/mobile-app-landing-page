@@ -2,7 +2,7 @@ import "./about.css";
 
 function About() {
   return (
-    <div className="about-container">
+    <section className="about-container" id="about">
       <div className="about-image">
         <img
           src={process.env.PUBLIC_URL + "/images/about-person-img.png"}
@@ -36,7 +36,7 @@ function About() {
         </p>
         <button className="btn-about">ABOUT US</button>
       </div>
-    </div>
+    </section>
   );
 }
 
