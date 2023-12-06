@@ -1,12 +1,12 @@
 import "./download.css";
 
-function Download() {
+function Download(props) {
   return (
     <div className="download-container background-image">
       <span>DOWNLOAD NOW</span>
       <div className="heading-container pulse">
-        <h1>Download Our App</h1>
-        <h1>Right Now</h1>
+        <h1>{props.mainTitle}</h1>
+        <h1>{props.subTitle}</h1>
       </div>
       <div className="btn-container">
         <button className="btn-explore">EXPLORE</button>

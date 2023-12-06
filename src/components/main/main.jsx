@@ -17,12 +17,13 @@ function Main() {
       <Features />
       <About />
       <Service />
-      <Download />
+      <Download mainTitle="Download Our App" subTitle="Right Now"/>
       <MoreFeatures />
       <Steps />
       <FAQ />
       <Pricing />
       <Blog />
+      <Download mainTitle="Join The Biggest" subTitle="Community"/>
     </div>
   );
 }
