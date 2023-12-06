@@ -1,7 +1,12 @@
+import "./footer.css";
+import { FaInstagram, FaFacebookF, FaGithub } from "react-icons/fa6";
+
 function Footer() {
   return (
     <div className="footer-container">
-      <div className="footer-item">logo</div>
+      <div className="footer-item">
+        <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
+      </div>
       <div className="footer-item">
         <span>MENU</span>
         <ul>
@@ -23,9 +28,9 @@ function Footer() {
       <div className="footer-item">
         <span>SOCIAL</span>
         <div className="social-icons">
-          <i>facebook</i>
-          <i>x</i>
-          <i>instagram</i>
+          <FaFacebookF className="facebook-icon" />
+          <FaGithub className="github-icon" />
+          <FaInstagram className="instagram-icon" />
         </div>
       </div>
     </div>

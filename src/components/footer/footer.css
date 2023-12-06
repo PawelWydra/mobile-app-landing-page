@@ -1,0 +1,51 @@
+.footer-container {
+  display: flex;
+  width: 80%;
+  aspect-ratio: 9/1;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.footer-item span {
+  margin: 1rem 0;
+  letter-spacing: 0.1rem;
+}
+
+.footer-item li {
+  line-height: 2;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.last-item {
+  margin-left: auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons > * {
+  height: 3rem;
+  width: 3rem;
+  padding: 0.25rem;
+  border-radius: 100%;
+}
+
+.facebook-icon {
+  background-color: rgb(28, 142, 236);
+  color: #fff;
+}
+
+.instagram-icon {
+  background: linear-gradient(45deg, #8134af, #ed3833);
+  color: white;
+}
+
+.github-icon {
+    background-color: black;
+    color: #fff;
+}
