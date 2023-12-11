@@ -4,6 +4,7 @@
   justify-content: center;
   background-color: rgba(252, 208, 31, 0.404);
   padding: 3rem 0;
+  border-radius: 2rem;
 }
 
 .faq-flex {
