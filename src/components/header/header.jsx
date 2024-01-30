@@ -12,14 +12,14 @@ function Header() {
   };
 
   return (
-    <header className="title" id="header">
+    <header className="flex justify-between max-w-7xl mx-auto" >
       <MobileMenu isMenuOpen={isMenuOpen} closeMenu={handleClick}/>
-      <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
+      <img className="flex-1 max-w-24" src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
       <div className="md:hidden">
         <RxHamburgerMenu size={40} onClick={handleClick} />
       </div>
-      <nav className="hidden md:block">
-        <ul className="navbar">
+      <nav className="hidden md:block flex-1 my-auto">
+        <ul className="flex justify-end gap-4 items-center">
           <li>
             <a href="#about">About</a>
           </li>

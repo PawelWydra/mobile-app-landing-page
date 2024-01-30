@@ -7,13 +7,11 @@ const Main = lazy(() => import("./components/main/main.jsx"));
 
 function App() {
   return (
-    <div className="flex-box">
       <Suspense fallback={<div>Loading...</div>}>
         <Header />
         <Main />
         <Footer />
       </Suspense>
-    </div>
   );
 }
 

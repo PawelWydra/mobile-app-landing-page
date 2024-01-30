@@ -30,7 +30,10 @@ function MobileMenu(props) {
     >
       <div className="relative text-white flex justify-center min-w-96 p-5 rounded-lg	">
         <ul className="flex flex-col text-2xl text-center gap-4 py-10">
-          <li>hey</li>
+          <li>About</li>
+          <li>Features</li>
+          <li>Blog</li>
+          <li>Pricing</li>
         </ul>
         <IoCloseSharp
           fill="red"
