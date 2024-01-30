@@ -1,4 +1,4 @@
-import "./App.css";
+
 import React, { lazy, Suspense } from "react";
 import Footer from "./components/footer/footer";
 

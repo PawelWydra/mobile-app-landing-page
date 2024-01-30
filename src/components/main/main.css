@@ -9,10 +9,7 @@ div {
 p {
   opacity: 0.8;
 }
-img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}
+
 
 .background-image {
   background: url("/public/images/background-svg.svg");
