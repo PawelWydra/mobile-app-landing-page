@@ -1,9 +1,10 @@
-function SectionContainer({ children }) {
+function SectionContainer({ className, children }) {
   return (
-    <section className="flex justify-between max-w-7xl mx-auto">
+    <section className={`flex justify-between max-w-6xl mx-auto mb-10 ${className}`}>
       {children}
     </section>
   );
 }
+
 
 export default SectionContainer;

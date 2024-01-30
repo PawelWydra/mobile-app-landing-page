@@ -1,15 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-div {
-  border-radius: 1rem;
-}
-
-p {
-  opacity: 0.8;
-}
-
 
 .background-image {
   background: url("/public/images/background-svg.svg");
@@ -19,17 +7,4 @@ p {
   border-radius: 2rem;
 }
 
-.flex-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 4rem;
-  width: 80%;
-  line-height: 1.4;
-  font-family: "Merriweather", serif;
-}
 
-.flex-box > div {
-  min-width: 50rem;
-}
