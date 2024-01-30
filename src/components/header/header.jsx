@@ -13,7 +13,8 @@ function Header() {
   };
 
   return (
-    <SectionContainer className={"px-4 md:px-10 lg:px-20"}>
+    <SectionContainer >
+      <div className="flex px-4 md:px-10 lg:px-20">
       <MobileMenu isMenuOpen={isMenuOpen} closeMenu={handleClick} />
       <img
         className="flex-1 max-w-24"
@@ -40,6 +41,7 @@ function Header() {
           <button className="download-btn text-nowrap">DOWNLOAD NOW</button>
         </ul>
       </nav>
+      </div>
     </SectionContainer>
   );
 }
