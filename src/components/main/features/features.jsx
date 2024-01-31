@@ -1,17 +1,18 @@
 import "./features.css";
 import InsertChartIcon from "@mui/icons-material/InsertChart";
-import InventoryIcon from '@mui/icons-material/Inventory';
-import WifiIcon from '@mui/icons-material/Wifi';
+import InventoryIcon from "@mui/icons-material/Inventory";
+import WifiIcon from "@mui/icons-material/Wifi";
+import Section from "../../utils/headerContainer.jsx";
 
 function Features() {
   return (
-    <section className="main-features" id="features">
+    <Section>
       <span>OUR FEATURES</span>
       <h1>Awesome Features Of Our App</h1>
       <div className="container-features">
         <div className="feature-item">
-        <div className="round-bg organize">
-            <InventoryIcon style={{ color: 'yellow' }} fontSize="large" />
+          <div className="round-bg organize">
+            <InventoryIcon style={{ color: "yellow" }} fontSize="large" />
           </div>
           <h3>Organize</h3>
           <p>Organize your schedule and set reminders for important events</p>
@@ -24,14 +25,14 @@ function Features() {
           <p>Keep track of your expenses and budget more effectively</p>
         </div>
         <div className="feature-item">
-        <div className="round-bg connect">
-            <WifiIcon style={{ color: 'blue' }} fontSize="large" />
+          <div className="round-bg connect">
+            <WifiIcon style={{ color: "blue" }} fontSize="large" />
           </div>
           <h3>Connect</h3>
           <p>Connect with friends and family seamlessly</p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

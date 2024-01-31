@@ -1,9 +1,9 @@
-import SectionContainer from "../../utils/SectionContainer";
+import HeaderContainer from "../../utils/headerContainer";
 import "./title.css";
 
 function Title() {
   return (
-    <SectionContainer>
+    <HeaderContainer>
       <div className="background-image flex justify-center items-center gap-24 flex-wrap px-8 lg:px-20 xl:px-32 py-8">
         <div className="card-description items-center md:items-start gap-5 flex-[1_1_0%] min-w-[28rem] *:max-md:text-center">
           <span>BEST APPLICATION</span>
@@ -32,7 +32,7 @@ function Title() {
           />
         </div>
       </div>
-    </SectionContainer>
+    </HeaderContainer>
   );
 }
 

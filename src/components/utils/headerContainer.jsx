@@ -1,4 +1,4 @@
-function SectionContainer({ children }) {
+function HeaderContainer({ children }) {
   return (
     <section className='max-w-screen-2xl px-4 lg:px-20 mx-auto mb-10'>
       {children}
@@ -7,4 +7,4 @@ function SectionContainer({ children }) {
 }
 
 
-export default SectionContainer;
+export default HeaderContainer;

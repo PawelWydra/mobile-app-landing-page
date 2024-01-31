@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import MobileMenu from "../mobileMenu/mobileMenu.jsx";
-import SectionContainer from "../utils/SectionContainer";
+import HeaderContainer from "../utils/headerContainer";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <SectionContainer >
+    <HeaderContainer >
       <div className="flex px-4 md:px-10 lg:px-20">
       <MobileMenu isMenuOpen={isMenuOpen} closeMenu={handleClick} />
       <img
@@ -21,7 +21,7 @@ function Header() {
         src={process.env.PUBLIC_URL + "/images/logo.png"}
         alt="logo"
       />
-      <div className="my-auto mr-12 md:hidden">
+      <div className="my-auto ml-auto md:hidden">
         <RxHamburgerMenu size={40} onClick={handleClick} />
       </div>
       <nav className="hidden md:block flex-1 my-auto">
@@ -42,7 +42,7 @@ function Header() {
         </ul>
       </nav>
       </div>
-    </SectionContainer>
+    </HeaderContainer>
   );
 }
 

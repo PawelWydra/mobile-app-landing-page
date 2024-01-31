@@ -1,4 +1,3 @@
-
 import Title from "./title/title.jsx";
 import Features from "./features/features.jsx";
 import About from "./about/about.jsx";
@@ -12,18 +11,26 @@ import Blog from "./blog/blog";
 
 function Main() {
   return (
-    <main className="flex-box">
+    <main>
       <Title />
       <Features />
       <About />
       <Service />
-      <Download mainTitle="Download Our App" subTitle="Right Now" id="downloads"/>
+      <Download
+        mainTitle="Download Our App"
+        subTitle="Right Now"
+        id="downloads"
+      />
       <MoreFeatures />
       <Steps />
       <FAQ />
       <Pricing />
       <Blog />
-      <Download mainTitle="Join The Biggest" subTitle="Community" id="join-now"/>
+      <Download
+        mainTitle="Join The Biggest"
+        subTitle="Community"
+        id="join-now"
+      />
     </main>
   );
 }
