@@ -1,8 +1,9 @@
+import SectionContainer from "../../utils/SectionContainer";
 import "./steps.css";
 
 function Steps() {
   return (
-    <section className="steps-container" id="steps">
+    <SectionContainer>
       <span>3 STEPS</span>
       <h1>You'll Love To Use It</h1>
       <div className="flex-steps">
@@ -31,7 +32,7 @@ function Steps() {
           <a href="#">Deploy Now</a>
         </div>
       </div>
-    </section>
+    </SectionContainer>
   );
 }
 

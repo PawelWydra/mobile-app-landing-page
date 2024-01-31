@@ -1,11 +1,13 @@
 import React from "react";
 import "./MoreFeatures.css";
+import SectionContainer from "../../utils/SectionContainer.jsx";
 import { FaRegLightbulb, FaUserTie } from "react-icons/fa6";
 import { FaBolt, FaBalanceScale } from "react-icons/fa";
 
 const MoreFeatures = () => {
   return (
-    <section className="more-features-container" id="more-features">
+    <SectionContainer>
+      {" "}
       <span>MORE FEATURES</span>
       <h1>Explore Our Business Features</h1>
       <div className="grid-container">
@@ -55,7 +57,7 @@ const MoreFeatures = () => {
           <p>Save time searching for apps with personalized recommendations</p>
         </div>
       </div>
-    </section>
+    </SectionContainer>
   );
 };
 
