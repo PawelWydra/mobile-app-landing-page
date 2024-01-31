@@ -1,11 +1,12 @@
 import "./pricing.css";
 import { FaCheck } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
+import SectionContainer from "../../utils/SectionContainer";
 
 
 function Pricing() {
   return (
-    <section className="pricing-container" id="pricing">
+    <SectionContainer>
       <div className="pricing-flex">
         <span>PRICING</span>
         <h1>Our Flexible App Price</h1>
@@ -69,7 +70,7 @@ function Pricing() {
           </div>
         </div>
       </div>
-    </section>
+      </SectionContainer>
   );
 }
 

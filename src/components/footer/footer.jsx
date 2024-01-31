@@ -1,13 +1,15 @@
+import HeaderContainer from "../utils/HeaderContainer";
 import "./footer.css";
 import { FaInstagram, FaFacebookF, FaGithub } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="footer-container">
-      <div className="footer-item">
+    <HeaderContainer>
+      <div className="flex justify-between">
+      <div className="flex-1">
         <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
       </div>
-      <div className="footer-item">
+      <div className="flex-1">
         <span>MENU</span>
         <ul>
           <li>About</li>
@@ -16,7 +18,7 @@ function Footer() {
           <li>Pricing</li>
         </ul>
       </div>
-      <div className="footer-item">
+      <div className="flex-1">
         <span>FEATURES</span>
         <ul>
           <li>Powerful</li>
@@ -25,7 +27,7 @@ function Footer() {
           <li>Professional</li>
         </ul>
       </div>
-      <div className="footer-item">
+      <div className="flex-1">
         <span>SOCIAL</span>
         <div className="social-icons">
           <a href="">
@@ -39,7 +41,8 @@ function Footer() {
           </a>
         </div>
       </div>
-    </div>
+      \</div>
+    </HeaderContainer>
   );
 }
 

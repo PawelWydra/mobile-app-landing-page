@@ -1,10 +1,11 @@
-import "./blog.css"
+import "./blog.css";
+import SectionContainer from "../../utils/SectionContainer";
 
 const data = "05 December 2023";
 
 function Blog() {
   return (
-    <section className="blog-container" id="blog">
+   <SectionContainer>
       <span>OUR BLOG</span>
       <h1>Latest Blogs & News</h1>
       <div className="blog-img-container">
@@ -31,7 +32,7 @@ function Blog() {
           </form>
         </div>
       </div>
-    </section>
+      </SectionContainer>
   );
 }
 
