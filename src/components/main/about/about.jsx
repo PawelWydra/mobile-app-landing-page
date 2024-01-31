@@ -1,8 +1,9 @@
+import SectionContainer from "../../utils/SectionContainer";
 import "./about.css";
 
 function About() {
   return (
-    <section className="about-container" id="about">
+    <SectionContainer>
       <div className="about-image">
         <img
           src={process.env.PUBLIC_URL + "/images/about-person-img.png"}
@@ -14,17 +15,16 @@ function About() {
           alt="logo"
           className="about-app-img"
         />
-         <img
+        <img
           src={process.env.PUBLIC_URL + "/images/about-user-img.png"}
           alt="logo"
           className="about-user-img"
         />
-         <img
+        <img
           src={process.env.PUBLIC_URL + "/images/about-user-ui-img.png"}
           alt="logo"
           className="about-user-ui-img"
         />
-
       </div>
       <div className="about-title">
         <span>ABOUT US</span>
@@ -36,7 +36,7 @@ function About() {
         </p>
         <button className="btn-about">ABOUT US</button>
       </div>
-    </section>
+    </SectionContainer>
   );
 }
 

@@ -1,9 +1,10 @@
+import SectionContainer from "../../utils/SectionContainer";
 import "./service.css";
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 
 function Service() {
   return (
-    <section className="service-container" id="service">
+    <SectionContainer>
       <div className="service-title">
         <span>SERVICE</span>
         <h1>Share With Your Friends</h1>
@@ -46,7 +47,7 @@ function Service() {
           />
         </div>
       </div>
-    </section>
+      </SectionContainer>
   );
 }
 
