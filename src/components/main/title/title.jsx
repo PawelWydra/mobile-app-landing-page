@@ -1,4 +1,4 @@
-import HeaderContainer from "../../utils/headerContainer";
+import HeaderContainer from "../../utils/HeaderContainer";
 import "./title.css";
 
 function Title() {

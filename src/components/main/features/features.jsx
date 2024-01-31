@@ -2,11 +2,11 @@ import "./features.css";
 import InsertChartIcon from "@mui/icons-material/InsertChart";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import WifiIcon from "@mui/icons-material/Wifi";
-import Section from "../../utils/headerContainer.jsx";
+import SectionContainer from "../../utils/SectionContainer";
 
 function Features() {
   return (
-    <Section>
+    <SectionContainer>
       <span>OUR FEATURES</span>
       <h1>Awesome Features Of Our App</h1>
       <div className="container-features">
@@ -32,7 +32,7 @@ function Features() {
           <p>Connect with friends and family seamlessly</p>
         </div>
       </div>
-    </Section>
+    </SectionContainer>
   );
 }
 
