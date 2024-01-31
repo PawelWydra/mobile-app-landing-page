@@ -7,7 +7,6 @@ import { FaBolt, FaBalanceScale } from "react-icons/fa";
 const MoreFeatures = () => {
   return (
     <SectionContainer>
-      {" "}
       <span>MORE FEATURES</span>
       <h1>Explore Our Business Features</h1>
       <div className="grid-container">

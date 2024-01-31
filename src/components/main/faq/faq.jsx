@@ -2,6 +2,7 @@ import SectionContainer from "../../utils/SectionContainer";
 import "./faq.css";
 import { BsQuestion } from "react-icons/bs";
 import { faqItems } from "./faqData";
+import Question from "./question";
 
 function FAQ() {
   return (
@@ -12,13 +13,7 @@ function FAQ() {
         <div className="flex flex-col p-10">
           <div>
             {faqItems.map((item) => (
-              <div className="faq-item" key={item.id}>
-                <BsQuestion className="faq-icon" />
-                <div className="answer-question-wrapper">
-                  <h3>{item.question}</h3>
-                  <p>{item.answer}</p>
-                </div>
-              </div>
+              <Question key={item.id} {...item} />
             ))}
           </div>
         </div>
