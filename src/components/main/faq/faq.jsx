@@ -7,15 +7,13 @@ import Question from "./question";
 function FAQ() {
   return (
     <SectionContainer>
-      <div className="faq-container flex flex-col rounded-3xl">
-        <span>F.A.Q.</span>
-        <h1>Frequently Asked Questions</h1>
-        <div className="flex flex-col p-10">
-          <div>
+      <div className="faq-container flex flex-col gap-6 rounded-3xl shadow-2xl">
+        <span className="text-white"> F.A.Q.</span>
+        <h1 className="text-3xl font-bold">Frequently Asked Questions</h1>
+        <div className="flex flex-col gap-6 justify-center md:w-2/3 xl:w-1/2 px-4">
             {faqItems.map((item) => (
               <Question key={item.id} {...item} />
             ))}
-          </div>
         </div>
       </div>
     </SectionContainer>

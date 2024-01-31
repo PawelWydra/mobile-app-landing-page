@@ -8,7 +8,7 @@
     rgba(112, 9, 242, 1) 50%,
     rgba(255, 220, 0, 1) 90%
   );
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   color: #fff;
 }
 
@@ -16,6 +16,6 @@
   color: #fff;
   background-color: rgb(255, 128, 0);
   border-radius: 100%;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
