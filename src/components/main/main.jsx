@@ -2,7 +2,7 @@ import Title from "./title/title.jsx";
 import Features from "./features/features.jsx";
 import About from "./about/about.jsx";
 import Service from "./service/service";
-import Download from "./download/download";
+import BannerContainer from "../utils/bannerContainer/BannerContainer.jsx";
 import MoreFeatures from "./MoreFeatures/MoreFeatures.jsx";
 import Steps from "./steps/steps";
 import FAQ from "./faq/faq";
@@ -16,7 +16,7 @@ function Main() {
       <Features />
       <About />
       <Service />
-      <Download
+      <BannerContainer
         mainTitle="Download Our App"
         subTitle="Right Now"
         id="downloads"
@@ -26,7 +26,7 @@ function Main() {
       <FAQ />
       <Pricing />
       <Blog />
-      <Download
+      <BannerContainer
         mainTitle="Join The Biggest"
         subTitle="Community"
         id="join-now"

@@ -1,8 +1,8 @@
-import "./download.css";
+import "./BannerContainer.css";
 
-function Download(props) {
+function BannerContainer(props) {
   return (
-    <section className="download-container background-image" id={props.id}>
+    <section className="download-container" id={props.id}>
       <span>DOWNLOAD NOW</span>
       <div className="heading-container pulse">
         <h1>{props.mainTitle}</h1>
@@ -16,4 +16,4 @@ function Download(props) {
   );
 }
 
-export default Download;
+export default BannerContainer;
