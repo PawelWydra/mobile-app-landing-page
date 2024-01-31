@@ -7,7 +7,7 @@ function Title() {
       <div className="background-image flex justify-center items-center gap-24 flex-wrap px-8 lg:px-20 xl:px-32 py-8">
         <div className="card-description items-center md:items-start gap-5 flex-[1_1_0%] min-w-[28rem] *:max-md:text-center">
           <span>BEST APPLICATION</span>
-          <h1 className="">Make It Simple With Our Mobile App</h1>
+          <h1 className="leading-snug">Make It Simple With Our Mobile App</h1>
           <p className=" text-balance">
             Our mobile app is designed to make your daily tasks easier and more
             efficient, so you can focus on the things that matter most.

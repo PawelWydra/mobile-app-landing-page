@@ -2,7 +2,7 @@ import "./BannerContainer.css";
 
 function BannerContainer(props) {
   return (
-    <section className="download-container" id={props.id}>
+    <section className="download-container my-10" id={props.id}>
       <span>DOWNLOAD NOW</span>
       <div className="heading-container pulse">
         <h1>{props.mainTitle}</h1>
