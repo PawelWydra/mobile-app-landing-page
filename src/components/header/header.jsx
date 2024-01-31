@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import { RxHamburgerMenu } from "react-icons/rx";
-import MobileMenu from "../mobileMenu/mobileMenu.jsx";
+import MobileMenu from "../utils/mobileMenu/mobileMenu.jsx";
 import HeaderContainer from "../utils/HeaderContainer";
 
 function Header() {
