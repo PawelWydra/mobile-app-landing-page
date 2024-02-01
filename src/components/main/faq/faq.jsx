@@ -10,7 +10,7 @@ function FAQ() {
       <div className="faq-container flex flex-col gap-6 rounded-3xl shadow-2xl">
         <span className="text-white"> F.A.Q.</span>
         <h1 className="text-3xl font-bold">Frequently Asked Questions</h1>
-        <div className="flex flex-col gap-6 justify-center md:w-2/3 xl:w-1/2 px-4">
+        <div className="flex flex-col gap-6 justify-center lg:w-2/3 p-4">
             {faqItems.map((item) => (
               <Question key={item.id} {...item} />
             ))}
