@@ -29,12 +29,7 @@
   font-weight: 500;
   color: #ffffffa9;
 }
-.card-description h1 {
-  letter-spacing: 0.1rem;
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-size: 3rem;
-}
+
 
 .card-description p {
   min-width: rem;
