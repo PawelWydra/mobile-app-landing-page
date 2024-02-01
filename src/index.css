@@ -4,10 +4,14 @@
 
 @layer base {
   h1 {
-    @apply text-4xl font-bold font-serif;
+    @apply max-sm:text-center text-4xl font-bold font-serif;
   }
   h2 {
     @apply text-xl font-semibold font-serif;
+  }
+  p,
+  span {
+    @apply max-sm:text-center;
   }
 }
 

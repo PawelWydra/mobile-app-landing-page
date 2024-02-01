@@ -4,7 +4,8 @@ import "./about.css";
 function About() {
   return (
     <SectionContainer>
-      <div className="about-image">
+      <div className="flex items-center justify-center gap-10 lg:gap-20 flex-wrap-reverse">
+      <div className="about-image ml-4 max-sm:max-h-96">
         <img
           src={process.env.PUBLIC_URL + "/images/about-person-img.png"}
           alt="logo"
@@ -26,7 +27,7 @@ function About() {
           className="about-user-ui-img"
         />
       </div>
-      <div className="about-title">
+      <div className="about-title gap-4">
         <span>ABOUT US</span>
         <h1>We Do Things Differently</h1>
         <p>
@@ -34,7 +35,8 @@ function About() {
           it right away. Plus, it's available on both iOS and Android devices,
           so you can download it no matter what kind of phone you have.
         </p>
-        <button className="btn-about">ABOUT US</button>
+        <button className="btn-about max-md:self-center">ABOUT US</button>
+      </div>
       </div>
     </SectionContainer>
   );

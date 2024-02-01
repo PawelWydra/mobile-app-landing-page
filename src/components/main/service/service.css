@@ -6,7 +6,6 @@
   aspect-ratio: 2/1;
 }
 
-
 .service-title {
   display: flex;
   flex-direction: column;
@@ -36,17 +35,16 @@
 .service-image-container {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  min-width: 25rem;
+  min-width: 20rem;
 }
 
 .service-image {
   position: relative;
   width: 50%;
-  margin-right: 5rem;
-  aspect-ratio: 1/1.75;
+  aspect-ratio: 1/2;
   background-color: rgb(183, 153, 223);
   border-radius: 1rem;
+  margin-inline: auto
 }
 
 .service-image > * {
@@ -57,10 +55,11 @@
 
 .share-img {
   height: 70%;
-  width: 170%;
+  max-width: 200%;
   border: solid 3px black;
-  left: -6.5rem;
-  bottom: 15%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .share-user-img {
   width: 70%;
