@@ -13,7 +13,7 @@ function Service() {
             Don't waste time sending files and photos one by one. Download our
             app now and start sharing your memories with ease!
           </p>
-          <ul className="flex flex-col max-sm:items-center">
+          <ul className="flex flex-col max-md:items-center">
             <li>
               <CheckCircleRoundedIcon fontSize="large" className="check-icon" />
               <span>Email Marketing</span>
