@@ -64,15 +64,17 @@
 .share-user-img {
   width: 70%;
   height: 55%;
-  left: 15%;
-  bottom: 22.5%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .share-person {
   border-radius: 100%;
-  left: 31%;
-  bottom: 54%;
-  height: 21%;
-  width: 34%;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  height: 23%;
+  width: 38%;
   border: solid 5px #fff;
 }
