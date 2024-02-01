@@ -1,6 +1,5 @@
 import SectionContainer from "../../utils/SectionContainer";
 import "./faq.css";
-import { BsQuestion } from "react-icons/bs";
 import { faqItems } from "./faqData";
 import Question from "./question";
 
