@@ -17,8 +17,9 @@
   background: linear-gradient(
     111deg,
     rgba(37, 119, 244, 1) 0%,
-    rgba(112, 9, 242, 1) 40%,
-    rgb(226, 197, 4) 100%
+    rgba(112, 9, 242, 1) 30%,
+    rgba(112, 9, 242, 1) 50%,
+    rgba(255, 220, 0, 1) 110%
   );
   width: 3rem;
   border-radius: 100%;
