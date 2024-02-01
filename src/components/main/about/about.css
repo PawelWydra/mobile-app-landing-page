@@ -52,7 +52,7 @@ span {
 .about-title {
   display: flex;
   flex-direction: column;
-  min-width: 20rem;
+  min-width: 15rem;
   flex: 1;
 }
 

@@ -7,13 +7,13 @@ function Service() {
     <SectionContainer>
       <div className="flex items-center justify-center gap-10 lg:gap-20 flex-wrap">
         <div className="service-title flex-1 gap-4">
-          <span>SERVICE</span>
+          <span className="max-lg:self-center">SERVICE</span>
           <h1>Share With Your Friends</h1>
           <p>
             Don't waste time sending files and photos one by one. Download our
             app now and start sharing your memories with ease!
           </p>
-          <ul className="flex flex-col max-md:items-center">
+          <ul className="flex flex-col max-lg:items-center">
             <li>
               <CheckCircleRoundedIcon fontSize="large" className="check-icon" />
               <span>Email Marketing</span>
@@ -26,7 +26,6 @@ function Service() {
               <CheckCircleRoundedIcon fontSize="large" className="check-icon" />
               <span>Time Deliverable</span>
             </li>
-            <li></li>
           </ul>
         </div>
         <div className="service-image-container max-w-[30rem] flex-1">

@@ -4,13 +4,13 @@
 
 @layer base {
   h1 {
-    @apply max-md:text-center text-4xl font-bold font-serif;
+    @apply max-lg:text-center text-4xl font-bold font-serif;
   }
   h2 {
     @apply text-xl font-semibold font-serif;
   }
   p {
-    @apply max-md:text-center;
+    @apply max-lg:text-center;
   }
   span {
     @apply tracking-[0.25rem];

@@ -5,7 +5,7 @@ function About() {
   return (
     <SectionContainer>
       <div className="flex items-center justify-center gap-10 lg:gap-20 flex-wrap-reverse">
-      <div className="about-image ml-4 max-sm:max-h-96">
+      <div className="about-image">
         <img
           src={process.env.PUBLIC_URL + "/images/about-person-img.png"}
           alt="logo"
@@ -28,14 +28,14 @@ function About() {
         />
       </div>
       <div className="about-title gap-4">
-        <span>ABOUT US</span>
+        <span className="max-lg:self-center">ABOUT US</span>
         <h1>We Do Things Differently</h1>
         <p>
           Our app is user-friendly and easy to navigate, so you can start using
           it right away. Plus, it's available on both iOS and Android devices,
           so you can download it no matter what kind of phone you have.
         </p>
-        <button className="btn-about max-md:self-center">ABOUT US</button>
+        <button className="btn-about max-lg:self-center">ABOUT US</button>
       </div>
       </div>
     </SectionContainer>
