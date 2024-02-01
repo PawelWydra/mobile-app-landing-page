@@ -9,9 +9,11 @@
   h2 {
     @apply text-xl font-semibold font-serif;
   }
-  p,
-  span {
+  p {
     @apply max-md:text-center;
+  }
+  span {
+    @apply tracking-[0.25rem];
   }
 }
 
