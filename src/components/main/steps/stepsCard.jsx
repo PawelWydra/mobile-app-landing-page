@@ -2,7 +2,7 @@ function StepsCard(props) {
     const { number, title, description, linkText, linkHref } = props;
   
     return (
-      <div className="steps-item gap-4 rounded-2xl">
+      <div className="steps-item gap-4 rounded-2xl max-lg:items-center">
         <div className="step-number">{number}</div>
         <h2>{title}</h2>
         <p>{description}</p>

@@ -9,7 +9,7 @@ function Steps() {
       <div className="flex flex-col gap-10 max-lg:items-center">
         <span>3 STEPS</span>
         <h1>You'll Love To Use It</h1>
-        <div className="flex gap-8 flex-wrap">
+        <div className="flex justify-center gap-8 flex-wrap">
           {stepsItems.map((item, index) => (
             <StepsCard key={index} {...item} />
           ))}
