@@ -6,8 +6,8 @@ const Question = ({ id, question, answer }) => {
       <div className="flex gap-8" key={id}>
         <BsQuestion className="faq-icon self-center" />
         <div className="flex-1 *:max-md:text-center">
-          <h3 className="font-semibold">{question}</h3>
-          <p className="max-md:text-sm">{answer}</p>
+          <h3 className="text-xl font-bold mb-2">{question}</h3>
+          <p className="max-md:text-sm italic">{answer}</p>
         </div>
       </div>
     );
