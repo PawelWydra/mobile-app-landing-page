@@ -4,9 +4,9 @@
   justify-content: center;
   background: linear-gradient(
     111deg,
-    rgba(37, 119, 244, 1) 0%,
-    rgba(112, 9, 242, 1) 30%,
-    rgba(112, 9, 242, 1) 50%,
+    rgba(37, 119, 244, 1) 20%,
+    rgba(112, 9, 242, 1) 40%,
+    rgba(112, 9, 242, 1) 60%,
     rgba(255, 220, 0, 1) 110%
   );
   padding: 3rem 1rem;

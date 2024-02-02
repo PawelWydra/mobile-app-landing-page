@@ -1,76 +1,25 @@
 import "./pricing.css";
-import { FaCheck } from "react-icons/fa";
-import { FaXmark } from "react-icons/fa6";
 import SectionContainer from "../../utils/SectionContainer";
-
+import { pricingItems } from "./pricingData.jsx";
+import PricingItem from "./pricingItem.jsx";
 
 function Pricing() {
   return (
     <SectionContainer>
-      <div className="pricing-flex">
+      <div className="pricing-flex gap-8">
         <span>PRICING</span>
         <h1>Our Flexible App Price</h1>
-        <div className="pricing-items-wrapper">
-          <div className="pricing-item">
-            <h1>$10</h1>
-            <h3>Standard</h3>
-            <ul>
-              <li>
-              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
-                <p>Email Marketing</p>
-              </li>
-              <li>
-              <FaXmark color="red"/>
-              <p className="opacity">Mobile Optimization</p>
-              </li>
-              <li>
-              <FaXmark color="red"/>
-                <p className="opacity">Time Deliverable</p>
-              </li>
-            </ul>
-            <button className="pricing-btn">GET NOW</button>
-          </div>
-          <div className="pricing-item premium-card">
-            <h1>$20</h1>
-            <h3>Premium</h3>
-            <ul>
-              <li>
-              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
-                <p>Email Marketing</p>
-              </li>
-              <li>
-              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
-                <p>Mobile Optimization</p>
-              </li>
-              <li>
-              <FaXmark color="red"/>
-                <p className="opacity">Time Deliverable</p>
-              </li>
-            </ul>
-            <button className="pricing-btn premium-btn">GET NOW</button>
-          </div>
-          <div className="pricing-item">
-            <h1>$40</h1>
-            <h3>Enterprise</h3>
-            <ul>
-              <li>
-              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
-                <p>Email Marketing</p>
-              </li>
-              <li>
-              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
-                <p>Mobile Optimization</p>
-              </li>
-              <li>
-              <FaCheck color="rgba(0, 128, 255, 0.863)"/>
-                <p>Time Deliverable</p>
-              </li>
-            </ul>
-            <button className="pricing-btn">GET NOW</button>
-          </div>
+        <div className="flex justify-center gap-14 flex-wrap">
+          {pricingItems.map((item, index) => (
+            <PricingItem
+              key={index}
+              {...item}
+              className={index === 1 ? "premium-card" : ""}
+            />
+          ))}
         </div>
       </div>
-      </SectionContainer>
+    </SectionContainer>
   );
 }
 
