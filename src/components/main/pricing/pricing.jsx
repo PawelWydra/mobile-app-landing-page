@@ -9,7 +9,7 @@ function Pricing() {
       <div className="pricing-flex gap-8">
         <span className="self-center">PRICING</span>
         <h1 className="self-center">Our Flexible App Price</h1>
-        <div className="flex justify-center gap-14 flex-wrap">
+        <div className="flex justify-center gap-8 flex-wrap">
           {pricingItems.map((item, index) => (
             <PricingItem
               key={index}
