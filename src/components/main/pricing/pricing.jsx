@@ -7,8 +7,8 @@ function Pricing() {
   return (
     <SectionContainer>
       <div className="pricing-flex gap-8">
-        <span>PRICING</span>
-        <h1>Our Flexible App Price</h1>
+        <span className="self-center">PRICING</span>
+        <h1 className="self-center">Our Flexible App Price</h1>
         <div className="flex justify-center gap-14 flex-wrap">
           {pricingItems.map((item, index) => (
             <PricingItem

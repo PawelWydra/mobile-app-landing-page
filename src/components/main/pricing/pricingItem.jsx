@@ -20,7 +20,7 @@ function PricingItem({
             ) : (
               <FaTimes color="red" />
             )}
-            <p className={feature.icon === "check" ? "text-lg" : "opacity"}>
+            <p className={feature.icon === "check" ? "text-lg" : "text-lg opacity"}>
               {feature.text}
             </p>
           </li>
