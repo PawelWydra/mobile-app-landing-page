@@ -22,8 +22,7 @@ function Blog() {
     };
 
     window.addEventListener("resize", adjustFormAlignment);
-    adjustFormAlignment(); // Call the function once to adjust alignment on initial render
-
+    adjustFormAlignment();
     return () => {
       window.removeEventListener("resize", adjustFormAlignment);
     };
