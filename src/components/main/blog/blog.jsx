@@ -15,11 +15,9 @@ function Blog() {
       if (form && description.offsetTop < form.offsetTop) {
         form.classList.remove("justify-end");
         form.classList.add("justify-start");
-        console.log(description.offsetTop, form.offsetTop);
       } else {
         form.classList.remove("justify-start");
         form.classList.add("justify-end");
-        console.log("false");
       }
     };
 
