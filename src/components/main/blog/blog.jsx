@@ -47,7 +47,9 @@ function Blog() {
         <div className="flex flex-wrap gap-4 *:flex-1">
           <div className="blog-newsletter-description min-w-80 ">
             <h3 className="text-left font-semibold text-xl">Newsletter</h3>
-            <p className="text-left text-semibold text-lg">Sign-up today to enjoy awesome updates from us!</p>
+            <p className="text-left text-semibold text-lg">
+              Sign-up today to enjoy awesome updates from us!
+            </p>
           </div>
           <form className="blog-newsletter-form flex items-center max-md:gap-6 gap-10 min-w-[40rem] flex-wrap justify-end">
             <input
