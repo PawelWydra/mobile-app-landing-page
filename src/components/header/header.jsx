@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import MobileMenu from "../utils/mobileMenu/mobileMenu.jsx";
-import HeaderContainer from "../utils/HeaderContainer";
+import HeaderContainer from "../utils/HeaderContainer.jsx";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
